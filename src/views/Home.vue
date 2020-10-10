@@ -1,18 +1,22 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="port-home">
+    <section class="section-hero">
+      <h2 class="hero-intro">
+        Hi, my name is <br /><span class="intro-big">Afara Seun.</span> <br />
+        <span class="intro-sm">
+          A software engineer helping businesses get more clients with their
+          web/mobile applications. If you're interested in helping your clients
+          live happier by using your platform, I'd love to help you grow your
+          business.</span
+        >
+      </h2>
+      <img class="memoji" src="../../public/uploads/memoji_5.webp" alt="" />
+    </section>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
-export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
-};
+export default {};
 </script>
