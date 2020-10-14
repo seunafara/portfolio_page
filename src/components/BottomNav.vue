@@ -3,7 +3,7 @@
     <router-link to="/work" class="btm-nav-i">Works</router-link>
     <router-link to="/skills" class="btm-nav-i">Skills</router-link>
     <router-link to="/about" class="btm-nav-i">About</router-link>
-    <a href="" class="btm-nav-i">Contact</a>
+    <router-link to="/contact" class="btm-nav-i">Contact</router-link>
   </div>
 </template>
 

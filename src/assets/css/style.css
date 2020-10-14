@@ -318,6 +318,43 @@ html {
   height: auto;
 }
 
+/** CONTACT **/
+.bg-contact-btn {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 20px;
+  width: fit-content;
+  text-decoration: none;
+  margin-top: 15px;
+  font-family: 'sans_regular';
+}
+
+.bg-contact-btn:hover {
+  color: #000;
+  background-color: white;
+}
+
+.contact-p {
+  color: white;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.reg-flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.reg-flex {
+  display: flex;
+}
+
+.icons i {
+  color: white;
+  font-size: 32px;
+}
+
 /** MEDIA QUERIES **/
 
 /** TABLET QUERY **/
