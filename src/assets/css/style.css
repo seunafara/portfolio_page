@@ -173,6 +173,10 @@ html {
   height: 300px;
   width: 300px;
 }
+.memoji-about {
+  height: 300px;
+  width: 300px;
+}
 
 .memoji:hover {
   content: url('../../../public/uploads/memoji_6.webp');
@@ -308,6 +312,12 @@ html {
   width: 250px;
 }
 
+/** ABOUT **/
+
+.about-hero {
+  height: auto;
+}
+
 /** MEDIA QUERIES **/
 
 /** TABLET QUERY **/
@@ -337,6 +347,10 @@ html {
     height: unset;
     width: unset;
   }
+  .memoji-about {
+    height: unset;
+    width: unset;
+  }
   .nav-seun-a {
     padding: 15px 7em;
   }
@@ -360,5 +374,11 @@ html {
   }
   .for-desk {
     display: block;
+  }
+  .about-intro {
+    width: 33%;
+  }
+  .about-hero {
+    height: 85vh;
   }
 }
