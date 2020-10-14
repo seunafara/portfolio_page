@@ -5,11 +5,11 @@
       <h2 class="intro-big work-h2">My Works.</h2>
       <p class="work-p">
         Helping companies acquire more customers and revenue through web and
-        mobile technology is nothing short of beautiful art."Tech is the new
+        mobile technology is nothing short of beautiful art. "Tech is the new
         oil", The latest human resource that creates wealth for communities and
         businesses faster. Harness the power of wealth creation by building a
         great web/mobile application for your business. Here's some of the
-        companies I've worked with:
+        companies I've built for:
       </p>
     </div>
 

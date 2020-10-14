@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "flutter",
+      "image": "../../uploads/skills/flutter.png"
+    },
+    {
+      "id": 2,
+      "name": "javascript",
+      "image": "../../uploads/skills/javascript.png"
+    },
+    {
+      "id": 3,
+      "name": "Vue",
+      "image": "../../uploads/skills/vue.png"
+    },
+    {
+      "id": 4,
+      "name": "node",
+      "image": "../../uploads/skills/node.png"
+    },
+    {
+      "id": 5,
+      "name": "npm",
+      "image": "../../uploads/skills/npm.png"
+    },
+    {
+      "id": 6,
+      "name": "git",
+      "image": "../../uploads/skills/git.png"
+    },
+    {
+      "id": 7,
+      "name": "laravel",
+      "image": "../../uploads/skills/laravel.png"
+    },
+    {
+      "id": 8,
+      "name": "html",
+      "image": "../../uploads/skills/html.png"
+    },
+    {
+      "id": 9,
+      "name": "css",
+      "image": "../../uploads/skills/css.png"
+    },
+    {
+      "id": 10,
+      "name": "wordpress",
+      "image": "../../uploads/skills/wordpress.png"
+    },
+    {
+      "id": 11,
+      "name": "adobe",
+      "image": "../../uploads/skills/adobe.png"
+    },
+    {
+      "id": 12,
+      "name": "mysql",
+      "image": "../../uploads/skills/mysql.png"
+    }
+  ]
+}

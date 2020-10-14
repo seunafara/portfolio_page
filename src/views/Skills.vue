@@ -1,0 +1,35 @@
+<template>
+  <div class="port-home padder wrapper-height-cross">
+    <div class="fixed-top-div"></div>
+    <div class="work-heading-intro">
+      <h2 class="intro-big work-h2">My Skills.</h2>
+      <p class="work-p">
+        Armed with over 5 years of professional coding experience, thousands of
+        coffee cups and amazing long nights; I build world class applications
+        everyday
+      </p>
+    </div>
+    <div style="overflow: hidden;width: 100%;margin: auto;">
+      <div class="slider">
+        <div class="slide-track">
+          <div v-for="skill in skills" :key="skill.id" class="slide">
+            <img height="80" width="80" :src="skill.image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import json from '@/assets/data/skills.json';
+export default {
+  data() {
+    return {
+      skills: json.skills,
+    };
+  },
+};
+</script>
+
+<style scoped></style>
