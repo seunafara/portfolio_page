@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <TopNav />
-    <router-view />
+    <vue-page-transition name="fade-in-right">
+      <router-view />
+    </vue-page-transition>
     <BtmNav />
   </div>
 </template>

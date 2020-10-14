@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Unzep",
+      "link": "https://unzep.com",
+      "desc": "- reviews collection website",
+      "image": "../../uploads/projects/unzep.png"
+    },
+    {
+      "id": 2,
+      "name": "Kinggs and godds",
+      "link": "https://kinggsandgodds.com",
+      "desc": "- online shopping website",
+      "image": "../../uploads/projects/kinggsandgodds.png"
+    },
+
+    {
+      "id": 3,
+      "name": "Dangote",
+      "link": "https://dangote.com",
+      "desc": "- dangote group portfolio website",
+      "image": "../../uploads/projects/dangote.png"
+    },
+    {
+      "id": 4,
+      "name": "Vigowork",
+      "link": "https://vigowork.com",
+      "desc": "- online freelance marketplace",
+      "image": "../../uploads/projects/vigowork.png"
+    },
+    {
+      "id": 5,
+      "name": "Triangle",
+      "link": "https://triangle.ng",
+      "desc": "- systems integration company",
+      "image": "../../uploads/projects/triangle.png"
+    },
+    {
+      "id": 6,
+      "name": "Bodmantech",
+      "link": "https://bodmantech.com",
+      "desc": "- online shopping website",
+      "image": "../../uploads/projects/bodmantech.png"
+    }
+  ]
+}

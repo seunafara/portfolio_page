@@ -1,6 +1,6 @@
 <template>
   <div class="btm-nav">
-    <a href="" class="btm-nav-i">Work</a>
+    <router-link to="/work" class="btm-nav-i">Works</router-link>
     <a href="" class="btm-nav-i">Skills</a>
     <router-link to="/about" class="btm-nav-i">About</router-link>
     <a href="" class="btm-nav-i">Contact</a>
