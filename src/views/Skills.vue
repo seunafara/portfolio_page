@@ -24,6 +24,20 @@
 <script>
 import json from '@/assets/data/skills.json';
 export default {
+  metaInfo() {
+    return {
+      
+       title: `My Skills`,
+      titleTemplate: '%s | Afara Seun',
+      meta: [
+        {
+          name: "description",
+          content:
+            "Armed with over 5 years of professional coding experience, thousands of coffee cups and amazing long nights. Check out my skills",
+        },
+      ],
+    };
+  },
   data() {
     return {
       skills: json.skills,

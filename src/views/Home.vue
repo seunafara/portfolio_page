@@ -18,5 +18,19 @@
 <script>
 // @ is an alias to /src
 
-export default {};
+export default {
+   metaInfo() {
+    return {
+      title: `Full Stack Engineer`,
+      titleTemplate: '%s | Afara Seun',
+      meta: [
+        {
+          name: "description",
+          content:
+            "A software engineer helping businesses get more clients with their web or mobile applications. If you're interested in helping your clients live happier by using your platform, I'd love to help you grow your business. Afara Seun",
+        },
+      ],
+    };
+  },
+};
 </script>

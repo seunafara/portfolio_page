@@ -33,6 +33,19 @@
 <script>
 import json from '@/assets/data/projects.json';
 export default {
+   metaInfo() {
+    return {
+       title: `My Works`,
+      titleTemplate: '%s | Afara Seun',
+      meta: [
+        {
+          name: "description",
+          content:
+            "Check out my works. Helping companies acquire more customers and revenue through web and mobile technology is nothing short of beautiful art.",
+        },
+      ],
+    };
+  },
   data() {
     return {
       projects: json.projects,

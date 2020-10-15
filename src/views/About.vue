@@ -28,7 +28,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+   metaInfo() {
+    return {
+      
+       title: `Afara Seun Abiola`,
+      titleTemplate: '%s | Afara Seun',
+      meta: [
+        {
+          name: "description",
+          content:
+            "A full stack software engineer with more than 5 years of coding experience.  Responsible for turning just ideas into real-world products for clients such as Dangote, Vigowork, Triangle Nigeria, Dremo, PFI Capital and many others. See what Afara Seun can do",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped></style>

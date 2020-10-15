@@ -14,6 +14,15 @@ import VuePageTransition from 'vue-page-transition';
 
 Vue.use(VuePageTransition);
 
+// Vue SEO
+import VueMeta from 'vue-meta'
+ 
+Vue.use(VueMeta, {
+  // optional pluginOptions
+  refreshOnceOnNavigation: true
+})
+
+
 new Vue({
   router,
   render: (h) => h(App),

@@ -41,5 +41,20 @@
 <script>
 // @ is an alias to /src
 
-export default {};
+export default {
+   metaInfo() {
+    return {
+      
+       title: `Contact Me`,
+      titleTemplate: '%s | Afara Seun',
+      meta: [
+        {
+          name: "description",
+          content:
+            "Have questions for me? Kindly contact me todat.",
+        },
+      ],
+    };
+  },
+};
 </script>
