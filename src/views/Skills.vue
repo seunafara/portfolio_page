@@ -14,6 +14,7 @@
         <div class="slide-track">
           <div v-for="skill in skills" :key="skill.id" class="slide">
             <img height="80" width="80" :src="skill.image" />
+            <p class="slide-p">{{skill.name}}</p>
           </div>
         </div>
       </div>

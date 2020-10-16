@@ -12,10 +12,10 @@
             world.</span
           >
         </h2>
-        <a
-          href="mailto:seunvigo@gmail.com,abiola@vigowork.com"
+        <button
+          @click="toogleContactModal"
           class="bg-contact-btn"
-          >Send a message</a
+          >Send a message</button
         >
         <p class="contact-p">Socials :</p>
         <div class="reg-flex icons">
@@ -56,5 +56,16 @@ export default {
       ],
     };
   },
+   methods: {
+    toogleContactModal(){
+       let contactModal = document.getElementById('contactModal');
+      if (contactModal.style.display == 'block') {
+        contactModal.style.display = 'none';
+      } else {
+        contactModal.style.display = 'block';
+      
+      }
+    }
+  }
 };
 </script>

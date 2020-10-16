@@ -2,22 +2,22 @@
   "skills": [
     {
       "id": 1,
-      "name": "flutter",
+      "name": "Flutter",
       "image": "../../uploads/skills/flutter.png"
     },
     {
       "id": 2,
-      "name": "javascript",
+      "name": "Javascript",
       "image": "../../uploads/skills/javascript.png"
     },
     {
       "id": 3,
-      "name": "Vue",
+      "name": "VueJS",
       "image": "../../uploads/skills/vue.png"
     },
     {
       "id": 4,
-      "name": "node",
+      "name": "NodeJS",
       "image": "../../uploads/skills/node.png"
     },
     {
@@ -27,37 +27,37 @@
     },
     {
       "id": 6,
-      "name": "git",
+      "name": "Git",
       "image": "../../uploads/skills/git.png"
     },
     {
       "id": 7,
-      "name": "laravel",
+      "name": "Laravel PHP",
       "image": "../../uploads/skills/laravel.png"
     },
     {
       "id": 8,
-      "name": "html",
+      "name": "HTML",
       "image": "../../uploads/skills/html.png"
     },
     {
       "id": 9,
-      "name": "css",
+      "name": "CSS",
       "image": "../../uploads/skills/css.png"
     },
     {
       "id": 10,
-      "name": "wordpress",
+      "name": "Wordpress",
       "image": "../../uploads/skills/wordpress.png"
     },
     {
       "id": 11,
-      "name": "adobe",
+      "name": "Adobe XD",
       "image": "../../uploads/skills/adobe.png"
     },
     {
       "id": 12,
-      "name": "mysql",
+      "name": "MySQL",
       "image": "../../uploads/skills/mysql.png"
     }
   ]

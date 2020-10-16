@@ -22,7 +22,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+a {
   font-family: 'sans_regular';
 }
 
@@ -88,6 +89,7 @@ html {
   font-family: 'sans_regular';
   border-radius: 4px;
   box-shadow: 0 20px 20px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
 
 .contact-btn i {
@@ -276,7 +278,7 @@ html {
 .slider {
   background: black;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 100px;
+  height: 120px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -312,6 +314,16 @@ html {
   width: 250px;
 }
 
+.slide-p {
+  color: white;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /** ABOUT **/
 
 .about-hero {
@@ -328,6 +340,7 @@ html {
   text-decoration: none;
   margin-top: 15px;
   font-family: 'sans_regular';
+  cursor: pointer;
 }
 
 .bg-contact-btn:hover {
@@ -353,6 +366,69 @@ html {
 .icons i {
   color: white;
   font-size: 32px;
+}
+
+/** MODAL **/
+
+.modal {
+  border-radius: 7px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin-top: 100px !important;
+  background-color: #000;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* The Close Button */
+.close {
+  padding: 3px 12px;
+  margin-bottom: 10px;
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  align-self: flex-end;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-btn-hov {
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.contact-btn-or {
+  color: white;
+  margin: 10px 0px;
 }
 
 /** MEDIA QUERIES **/
@@ -417,5 +493,8 @@ html {
   }
   .about-hero {
     height: 85vh;
+  }
+  .contact-btn-hov {
+    font-size: 40px;
   }
 }
